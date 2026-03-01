@@ -78,8 +78,8 @@ https://github.com/jmconcepcion/cmsc207-personal-web-profile
 ## Reflection
 
 One challenge I faced was finding the right balance between clarity and simplicity while creating a professional profile on a single page. 
-Despite working with complex digital platforms, this project required me to concentrate on core web development principles—such as semantic structure, clean design, 
-and minimal interactivity—without complicating things unnecessarily. 
+Despite working with complex digital platforms, this project required me to concentrate on core web development principles, such as semantic structure, clean design, 
+and minimal interactivity, without complicating things unnecessarily. 
 Achieving readability on various devices also necessitated careful adjustments in spacing, typography, and layout using CSS media queries.
 
 This project reinforced the significance of solid fundamentals in crafting effective digital experiences. The use of semantic HTML, 
