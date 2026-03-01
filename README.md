@@ -21,11 +21,11 @@ The site presents a formal professional profile including background, education,
 
 ## Project Objectives Achieved
 
-✔ Developed a structured and semantic HTML page  
-✔ Applied external CSS for layout, colors, and typography  
-✔ Implemented JavaScript interactivity (Fun Fact button)  
-✔ Designed a responsive layout using media queries  
-✔ Practiced clean code organization and debugging  
+- Developed a structured and semantic HTML page  
+- Applied external CSS for layout, colors, and typography  
+- Implemented JavaScript interactivity (Fun Fact button)  
+- Designed a responsive layout using media queries  
+- Practiced clean code organization and debugging  
 
 ---
 
