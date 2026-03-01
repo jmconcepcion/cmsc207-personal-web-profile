@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This repository contains my Personal Web Profile developed for the CMSC 207 Mini-Project.
 
@@ -19,7 +19,7 @@ The site presents a formal professional profile including background, education,
 
 ---
 
-## 🎯 Project Objectives Achieved
+## Project Objectives Achieved
 
 ✔ Developed a structured and semantic HTML page  
 ✔ Applied external CSS for layout, colors, and typography  
@@ -29,7 +29,7 @@ The site presents a formal professional profile including background, education,
 
 ---
 
-## 🧱 Technologies Used
+## Technologies Used
 
 - **HTML5** – Semantic structure (`header`, `section`, `footer`, `article`, etc.)
 - **CSS3** – External stylesheet with white and green theme
@@ -37,7 +37,7 @@ The site presents a formal professional profile including background, education,
 
 ---
 
-## 🌐 Website Structure
+## Website Structure
 
 The single-page website includes:
 
@@ -52,7 +52,7 @@ Navigation uses anchor links for smooth in-page transitions.
 
 ---
 
-## ⭐ Features Implemented
+## Features Implemented
 
 - Responsive design (mobile-friendly layout)
 - Hover effects for navigation and content cards
@@ -61,29 +61,34 @@ Navigation uses anchor links for smooth in-page transitions.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-🔗 Live Site:  
+Live Site:  
 https://jmconcepcion.github.io/cmsc207-personal-web-profile/
 
 ---
 
-## 📂 Repository Link
+## Repository Link
 
-🔗 GitHub Repository:  
+GitHub Repository:  
 https://github.com/jmconcepcion/cmsc207-personal-web-profile
 
 ---
 
-## 💡 Reflection
+## Reflection
 
-One of the main challenges in developing this project was maintaining simplicity while presenting a professional and formal profile. Although my professional background involves complex digital systems, the objective of this project required focusing on foundational web principles and clean semantic structure.
+One challenge I faced was finding the right balance between clarity and simplicity while creating a professional profile on a single page. 
+Despite working with complex digital platforms, this project required me to concentrate on core web development principles—such as semantic structure, clean design, 
+and minimal interactivity—without complicating things unnecessarily. 
+Achieving readability on various devices also necessitated careful adjustments in spacing, typography, and layout using CSS media queries.
 
-Through this exercise, I reinforced my understanding of how HTML, CSS, and JavaScript work together to create a functional and responsive web experience. Even a simple interactive feature demonstrated how small enhancements can improve user engagement. This project strengthened my appreciation for foundational web technologies that support modern digital platforms.
+This project reinforced the significance of solid fundamentals in crafting effective digital experiences. The use of semantic HTML, 
+an external stylesheet, and basic JavaScript interactions illustrated how even minor enhancements can boost usability and engagement. 
+The mini-project enhanced my front-end skills and confirmed that a robust understanding of foundational web technologies is crucial for developing impactful digital strategies.
 
 ---
 
-## 📘 Course Information
+## Course Information
 
 Course: CMSC 207 – Web Programming and Development  
 Mini-Project: Build a Personal Web Profile  
