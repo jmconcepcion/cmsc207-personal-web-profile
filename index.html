@@ -13,10 +13,11 @@
     <h1>Joseph (Joey) Concepcion</h1>
     <p class="tagline">Digital Channel Lead · Digital Transformation · Customer Experience · Project Management</p>
 
-    <nav class="nav">
+    <nav class="nav" aria-label="Primary">
       <ul>
         <li><a href="#about">About Me</a></li>
         <li><a href="#education">Education</a></li>
+        <li><a href="#licenses">Licenses & Certifications</a></li>
         <li><a href="#hobbies">Hobbies & Interests</a></li>
         <li><a href="#contact">Contact Info</a></li>
       </ul>
@@ -59,15 +60,15 @@
           </ul>
         </div>
 
-        <button class="btn" onclick="showFunFact()">Display Fun Fact</button>
-        <p id="funFact" class="funfact"></p>
+        <button class="btn" type="button" onclick="showFunFact()">Display Fun Fact</button>
+        <p id="funFact" class="funfact" aria-live="polite"></p>
       </div>
 
       <aside class="profile-card">
         <img src="Joey.jpg" alt="Photo of Joseph (Joey) Concepcion" />
         <div class="profile-meta">
           <p><strong>Current Role:</strong> Digital Channel Lead</p>
-          <p><strong>Industry:</strong> Pharmaceuticals / Digital Marketing</p>
+          <p><strong>Industry:</strong> Pharmaceuticals / Digital Marketing / Business-to-business (B2B)</p>
           <p><strong>Region:</strong> ASKAN (ASEAN, South Korea, Australia and New Zealand)</p>
         </div>
       </aside>
@@ -80,7 +81,7 @@
 
       <div class="education-card">
         <h3>Bachelor of Science in Information Technology</h3>
-        <p><strong>Institution:</strong> Polytechnic University of the Philippines</p>
+        <p class="meta-line"><strong>Institution:</strong> Polytechnic University of the Philippines</p>
         <p>
           Developed foundational expertise in programming, database systems, software development life cycle (SDLC),
           and enterprise system analysis.
@@ -89,11 +90,99 @@
 
       <div class="education-card">
         <h3>Master of Science in Digital Marketing and Strategy</h3>
-        <p><strong>Institution:</strong> Aston University, United Kingdom</p>
+        <p class="meta-line"><strong>Institution:</strong> Aston University, United Kingdom</p>
         <p>
           Advanced studies focused on digital transformation, strategic marketing, analytics-driven decision making,
           customer engagement frameworks, and global digital business strategy.
         </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="licenses" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Licenses & Certifications</h2>
+        <p class="subtext">
+          Selected certifications supporting analytics, user experience, leadership dialogue, and digital advertising capability.
+        </p>
+      </div>
+
+      <div class="cert-grid">
+        <article class="cert-card">
+          <div class="cert-top">
+            <h3>Digital Advertising Certification</h3>
+            <span class="badge">Active</span>
+          </div>
+          <p class="meta-line"><strong>Issuer:</strong> HubSpot</p>
+          <p class="meta-line"><strong>Issued:</strong> Aug 2025 · <strong>Expires:</strong> Sep 2026</p>
+          <div class="chips" aria-label="Key skills">
+            <span class="chip">Campaign Strategy</span>
+            <span class="chip">Paid Media</span>
+            <span class="chip">Conversion Tracking</span>
+            <span class="chip">Audience Targeting</span>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-top">
+            <h3>Crucial Conversations for Mastering Dialogue</h3>
+            <span class="badge badge-neutral">Certificate</span>
+          </div>
+          <p class="meta-line"><strong>Issuer:</strong> Crucial Learning</p>
+          <p class="meta-line"><strong>Issued:</strong> Aug 2025</p>
+          <div class="chips" aria-label="Key skills">
+            <span class="chip">Strategic Communication</span>
+            <span class="chip">Conflict Resolution</span>
+            <span class="chip">Stakeholder Engagement</span>
+            <span class="chip">Leadership Dialogue</span>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-top">
+            <h3>Google Analytics Certification</h3>
+            <span class="badge">Active</span>
+          </div>
+          <p class="meta-line"><strong>Issuer:</strong> Google</p>
+          <p class="meta-line"><strong>Issued:</strong> Aug 2025 · <strong>Expires:</strong> Aug 2026</p>
+          <div class="chips" aria-label="Key skills">
+            <span class="chip">Web Analytics</span>
+            <span class="chip">KPI Measurement</span>
+            <span class="chip">Data Interpretation</span>
+            <span class="chip">Performance Tracking</span>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-top">
+            <h3>Data Driven Decision Making</h3>
+            <span class="badge badge-neutral">Certificate</span>
+          </div>
+          <p class="meta-line"><strong>Issuer:</strong> National University of Singapore</p>
+          <p class="meta-line"><strong>Issued:</strong> May 2025</p>
+          <div class="chips" aria-label="Key skills">
+            <span class="chip">Business Analytics</span>
+            <span class="chip">Decision Frameworks</span>
+            <span class="chip">Data Modeling</span>
+            <span class="chip">Strategic Insight</span>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <div class="cert-top">
+            <h3>Digital User Experience Design</h3>
+            <span class="badge badge-neutral">Certificate</span>
+          </div>
+          <p class="meta-line"><strong>Issuer:</strong> National University of Singapore</p>
+          <p class="meta-line"><strong>Issued:</strong> Sep 2024</p>
+          <div class="chips" aria-label="Key skills">
+            <span class="chip">UX Research</span>
+            <span class="chip">Journey Mapping</span>
+            <span class="chip">Usability</span>
+            <span class="chip">Interface Principles</span>
+          </div>
+        </article>
       </div>
     </div>
   </section>
@@ -138,7 +227,7 @@
         <p><strong>Social:</strong></p>
         <ul class="links">
           <li><a href="https://www.linkedin.com/in/joeymconcepcion/" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li><a href="https://github.com/jmconcepcion/cmsc207-personal-web-profile.git" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://github.com/jmconcepcion/cmsc207-personal-web-profile" target="_blank" rel="noopener">GitHub</a></li>
           <li><a href="https://www.instagram.com/jooeeeeeeeey/" target="_blank" rel="noopener">Instagram</a></li>
         </ul>
       </div>

@@ -10,7 +10,6 @@
 }
 
 *{ box-sizing: border-box; }
-
 html{ scroll-behavior: smooth; }
 
 body{
@@ -26,6 +25,7 @@ body{
   margin: 0 auto;
 }
 
+/* Header */
 .site-header{
   background: var(--green-700);
   color: var(--white);
@@ -45,6 +45,7 @@ h1{
   font-family: Arial, sans-serif;
 }
 
+/* Navigation */
 .nav ul{
   list-style:none;
   padding:0;
@@ -71,6 +72,7 @@ h1{
   transform: translateY(-1px);
 }
 
+/* Sections */
 .section{
   padding: 44px 0;
 }
@@ -89,9 +91,20 @@ h2{
 .subtext{
   margin-top: -6px;
   color: var(--muted);
-  max-width: 75ch;
+  max-width: 80ch;
 }
 
+.section-head{
+  margin-bottom: 14px;
+}
+
+/* About text justification */
+#about p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Layout grids */
 .two-col{
   display:grid;
   grid-template-columns: 1.5fr 0.9fr;
@@ -99,6 +112,14 @@ h2{
   align-items: start;
 }
 
+.contact-grid{
+  display:grid;
+  grid-template-columns: 1.2fr 0.9fr;
+  gap: 22px;
+  align-items: start;
+}
+
+/* Profile card */
 .profile-card{
   border: 1px solid var(--line);
   background: var(--white);
@@ -118,6 +139,31 @@ h2{
   color: var(--muted);
 }
 
+/* Shared cards */
+.education-card{
+  border: 1px solid var(--line);
+  background: var(--white);
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 18px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.education-card:hover{
+  transform: translateY(-2px);
+  border-color: var(--green-600);
+}
+.education-card h3{
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.meta-line{
+  margin: 6px 0;
+  color: var(--muted);
+  font-family: Arial, sans-serif;
+}
+
+/* Competencies panel */
 .panel{
   margin-top: 18px;
   border: 1px solid var(--line);
@@ -136,6 +182,7 @@ h2{
   color: var(--muted);
 }
 
+/* Button */
 .btn{
   margin-top: 14px;
   background: var(--green-600);
@@ -148,7 +195,6 @@ h2{
   font-weight: 700;
   transition: background 0.2s ease, transform 0.2s ease;
 }
-
 .btn:hover{
   background: var(--green-900);
   transform: translateY(-1px);
@@ -161,13 +207,13 @@ h2{
   min-height: 1.2em;
 }
 
+/* Hobbies cards */
 .cards{
   display:grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
   margin-top: 14px;
 }
-
 .card{
   border: 1px solid var(--line);
   background: var(--white);
@@ -175,30 +221,88 @@ h2{
   padding: 16px;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
-
 .card:hover{
   transform: translateY(-2px);
   border-color: var(--green-600);
 }
-
 .card h3{
   margin: 0 0 8px;
   font-size: 16px;
 }
-
 .card p{
   margin:0;
   color: var(--muted);
   font-family: Arial, sans-serif;
 }
 
-.contact-grid{
+/* Certifications grid */
+.cert-grid{
   display:grid;
-  grid-template-columns: 1.2fr 0.9fr;
-  gap: 22px;
-  align-items: start;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 14px;
 }
 
+.cert-card{
+  border: 1px solid var(--line);
+  background: var(--white);
+  border-radius: 10px;
+  padding: 16px;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.cert-card:hover{
+  transform: translateY(-2px);
+  border-color: var(--green-600);
+  box-shadow: 0 10px 24px rgba(27,67,50,0.08);
+}
+
+.cert-top{
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.cert-card h3{
+  margin:0;
+  font-size: 16px;
+}
+
+/* Badges */
+.badge{
+  display:inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  background: var(--green-100);
+  color: var(--green-900);
+  border: 1px solid var(--line);
+}
+.badge-neutral{
+  background: #ffffff;
+}
+
+/* Skill chips */
+.chips{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.chip{
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--green-100);
+  color: var(--green-900);
+}
+
+/* Contact */
 .contact-card{
   border: 1px solid var(--line);
   background: var(--white);
@@ -206,29 +310,21 @@ h2{
   padding: 16px;
   font-family: Arial, sans-serif;
 }
-
 .contact-card a{
   color: var(--green-700);
   text-decoration: none;
   border-bottom: 1px solid rgba(45,106,79,0.35);
 }
-
 .contact-card a:hover{
   border-bottom-color: rgba(45,106,79,0.75);
 }
-
 .links{
   margin: 8px 0 0;
   padding-left: 18px;
   color: var(--muted);
 }
 
-.note{
-  margin-top: 10px;
-  color: var(--muted);
-  font-size: 13px;
-}
-
+/* Footer */
 .site-footer{
   border-top: 1px solid var(--line);
   background: var(--white);
@@ -242,7 +338,6 @@ h2{
   color: var(--muted);
   font-family: Arial, sans-serif;
 }
-
 .small{ font-size: 13px; }
 
 /* Responsive */
@@ -251,9 +346,5 @@ h2{
   .contact-grid{ grid-template-columns: 1fr; }
   .cards{ grid-template-columns: 1fr; }
   .grid-list{ grid-template-columns: 1fr; }
-}
-
-#about p {
-    text-align: justify;
-    text-justify: inter-word;
+  .cert-grid{ grid-template-columns: 1fr; }
 }
